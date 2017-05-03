@@ -1,3 +1,5 @@
+https://thinkster.io/angularjs-es6-tutorial
+
 # Conduit AngularJS Starter
 
 1. Clone repo
