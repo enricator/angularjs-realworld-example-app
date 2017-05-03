@@ -3,6 +3,7 @@ class AuthCtrl {
     'ngInject';
 
     this._User = User;
+    this._$state = $state;
 
     this.title = $state.current.title;
     this.authType = $state.current.name.replace('app.', '');
@@ -19,6 +20,7 @@ class AuthCtrl {
         this.isSubmitting = false;
         this.errors = '';
         console.log(res);
+        this._$state.go('app.home');
       },
       // Callback for failure
       (err) => {
