@@ -5,3 +5,13 @@
 3. `gulp`
 
 Make sure you have gulp installed globally (`npm install -g gulp`)
+
+
+### MY NOTES ###
+
+start MongoDB server:
+(on win)
+'%install_dir%\bin\mongod.exe'
+
+start backend (node+express+mondodb):
+'npm run dev'

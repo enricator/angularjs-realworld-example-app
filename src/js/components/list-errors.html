@@ -1,0 +1,7 @@
+<ul class="error-messages" ng-show="$ctrl.errors">
+  <div ng-repeat="(key, error) in $ctrl.errors track by $index">
+    <!-- <li ng-repeat="e in error track by $index"> -->
+      {{ key }} {{error}}
+    <!-- </li> -->
+  </div>
+</ul>
